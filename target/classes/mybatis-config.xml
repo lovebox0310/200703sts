@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <typeAliases>
+	<!-- 이렇게 여러개 선언할 수 없기 때문에  밑에처럼 패키지만 선언하면 사용 가능하다.
+	<typeAlias alias="MemberDTO" type="kr.co.domain.MemberDTO"/> 
+	-->
+  	<package name="kr.co.domain"/>
+  </typeAliases>
+</configuration>
